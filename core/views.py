@@ -7,6 +7,6 @@ import core.models as coremodels
 class landingView(TemplateView):
     template_name = 'base/index.html'
 
-class locationListView(ListView):    
-	model = coremodels.Location
-    template_name = 'base/theme.html'
+class LocationListView(ListView):
+model = coremodels.Location
+template_name = 'location/list.html'
